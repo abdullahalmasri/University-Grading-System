@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class SQLConn {
     //path to your sqlFile.sql
-    public static String aSQLScriptFilePath = "/home/aal-masri/University-Grading-System/src/edu/university/resources/Tables.sql";
+    public static String aSQLScriptFilePath = "/path-to/Tables.sql";
 
     //you need create database with this name 'university'
     public static final String url = "jdbc:postgresql://localhost:5432/university";
