@@ -489,15 +489,6 @@ public class SQLConn {
         return affectedrows;
     }
 
-    /**
-     * Here we gonna use select statement to create table for Marks of Students
-     */
-
-    public static void createNewTableMarks(int instructorId, int studentId, int coursesId
-            , double firstExam, double midExam, double finalExam) {
-        String Query = "CREATE TABLE student_mark" +
-                "SELECT * FROM (VALUES ROW(1,3,5), ROW(2,4,6)) AS v(First,Mid,Final)";
-    }
 
 
 }
